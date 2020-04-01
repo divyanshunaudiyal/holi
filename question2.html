@@ -1,0 +1,34 @@
+<html>
+<head></head>
+<body>
+<script src="todos.js"></script>    
+    <script type="text/javascript">
+           var tasks = [0,0,0,0,0,0,0,0,0,0]
+           for(var i=0; i<data.length; i++){
+               if(data[i]['completed'] == true){
+                tasks[data[i]['userId']-1]++;
+            }
+        }
+     
+         minvalue= Math.min.apply(null,tasks); 
+        maxvalue= Math.max.apply(null,tasks);
+        console.log("min task ids");
+         for(var i=0; i<data.length; i++){
+             if(tasks[i]==minvalue){
+             	console.log(i);
+             }
+            }
+            console.log("max task ids");
+        	for(var i=0; i<data.length; i++){
+             if(tasks[i]==maxvalue){
+             	console.log(i);
+             }
+            }
+        
+          
+       
+    </script>
+
+
+</body>
+</html>
