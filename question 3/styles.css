@@ -1,0 +1,69 @@
+/* Bordered form */
+
+title{
+  font-weight: bold;
+  font-size-adjust: 52px;
+  color: black;
+}
+a{
+  color: white;
+  font-weight: bold;
+  font-size: 15px
+}
+
+text{
+  color: white;
+}
+input[type=text]:focus {
+  border: 3px solid green;
+}
+input[type=password]:focus {
+  border: 3px solid green;
+}
+input[type=text], input[type=email], input[type=Age] ,input[type=number] {
+  width: 50%;
+  border-radius: 25px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 5px solid green;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+button {
+  color: white;
+  background-color: orange;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  width: 50%;
+}
+
+button:hover{
+  background-color: green;
+  color: white;
+  transition-duration: 0.4s;
+}
+
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 10px 16px;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: black;
+}
+/* c
